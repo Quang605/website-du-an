@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Trang giới thiệu mẫu cho dự án DIY và điện tử."
+    >
+    <meta name="theme-color" content="#101916">
+    <title>Dự án DIY — Trang giới thiệu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Đi đến nội dung chính</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Dự án DIY, về đầu trang">
+          <span class="brand-mark" aria-hidden="true">D</span>
+          <span>DỰ ÁN <strong>DIY</strong></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="sr-only">Mở menu điều hướng</span>
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Điều hướng chính">
+          <a href="#features">Tính năng</a>
+          <a href="#parts">Linh kiện</a>
+          <a href="#guide">Hướng dẫn</a>
+          <a href="#gallery">Thư viện</a>
+          <a class="nav-cta" href="#contact">Bắt đầu khám phá <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-pad" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> DIY / ĐIỆN TỬ · BẢN GIỚI THIỆU</p>
+            <h1>Ý tưởng nhỏ,<br><span>khám phá lớn.</span></h1>
+            <p class="hero-intro">
+              Đây là không gian giới thiệu dự án DIY của bạn. Hãy thay phần nội dung mẫu
+              bằng câu chuyện, mục tiêu và những điều bạn muốn cộng đồng cùng khám phá.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#guide">Khám phá hướng dẫn <span aria-hidden="true">↓</span></a>
+              <a class="text-link" href="#parts">Xem danh sách linh kiện <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="hero-meta">
+              <div><span class="meta-icon">01</span><span>Thiết kế dễ tiếp cận</span></div>
+              <div><span class="meta-icon">02</span><span>Tự do tùy biến</span></div>
+            </div>
+          </div>
+
+          <div class="hero-art" role="img" aria-label="Minh họa trừu tượng một bo mạch DIY với các đường mạch và linh kiện">
+            <div class="art-label"><span class="status-dot"></span> Ý TƯỞNG ĐANG HOẠT ĐỘNG</div>
+            <div class="circuit-board">
+              <div class="board-grid"></div>
+              <div class="trace trace-one"></div>
+              <div class="trace trace-two"></div>
+              <div class="trace trace-three"></div>
+              <div class="chip"><span>DIY</span><i></i><i></i><i></i><i></i></div>
+              <div class="component component-a"><span></span><span></span></div>
+              <div class="component component-b"><span></span><span></span></div>
+              <div class="led led-a"></div>
+              <div class="led led-b"></div>
+              <div class="board-port"></div>
+            </div>
+            <div class="art-note"><span class="note-line"></span><span>Mạch thử nghiệm · phiên bản 01</span></div>
+            <span class="art-orbit orbit-one"></span>
+            <span class="art-orbit orbit-two"></span>
+            <span class="art-spark spark-one">✳</span>
+            <span class="art-spark spark-two">+</span>
+          </div>
+        </div>
+        <div class="hero-bottom container">
+          <span>THIẾT KẾ · LẮP RÁP · KHÁM PHÁ</span>
+          <a href="#features" aria-label="Cuộn đến phần tính năng">CUỘN ĐỂ KHÁM PHÁ <span aria-hidden="true">⌄</span></a>
+        </div>
+      </section>
+
+      <section class="features section-pad" id="features">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">01 / TỔNG QUAN</p>
+              <h2>Tạo nên điều<br><span>hữu ích.</span></h2>
+            </div>
+            <p class="section-lead">
+              Một nền tảng rõ ràng để bạn trình bày dự án, chia sẻ kiến thức
+              và giúp người mới bắt đầu tự tin thử sức.
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="card-index">01</span>
+              <div class="feature-icon icon-modules" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+              <h3>Thiết kế theo mô-đun</h3>
+              <p>Giới thiệu cách các khối chức năng kết nối và khả năng mở rộng theo nhu cầu.</p>
+              <a href="#guide" aria-label="Tìm hiểu thêm về hướng dẫn">Tìm hiểu thêm <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="feature-card">
+              <span class="card-index">02</span>
+              <div class="feature-icon icon-docs" aria-hidden="true"><i></i><i></i><i></i></div>
+              <h3>Tài liệu dễ theo dõi</h3>
+              <p>Chia quy trình thành những bước ngắn, kèm ghi chú để ai cũng có thể học hỏi.</p>
+              <a href="#guide" aria-label="Xem các bước hướng dẫn">Xem các bước <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="feature-card">
+              <span class="card-index">03</span>
+              <div class="feature-icon icon-community" aria-hidden="true"><i></i><i></i><i></i></div>
+              <h3>Cùng nhau cải tiến</h3>
+              <p>Mời cộng đồng đóng góp ý tưởng, chia sẻ phiên bản và đề xuất hướng phát triển.</p>
+              <a href="#contact" aria-label="Kết nối với dự án">Kết nối dự án <span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="parts section-pad" id="parts">
+        <div class="container">
+          <div class="section-heading parts-heading">
+            <div>
+              <p class="eyebrow">02 / CHUẨN BỊ</p>
+              <h2>Những thứ<br><span>bạn cần.</span></h2>
+            </div>
+            <div class="parts-aside">
+              <p>Danh sách linh kiện tham khảo để bạn thay bằng vật tư chính xác cho dự án của mình.</p>
+              <a class="text-link" href="#parts">Xem linh kiện tham khảo <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="parts-table" role="table" aria-label="Danh sách linh kiện mẫu">
+            <div class="parts-row parts-header" role="row">
+              <span role="columnheader">THÀNH PHẦN</span>
+              <span role="columnheader">MÔ TẢ</span>
+              <span role="columnheader">SL.</span>
+              <span role="columnheader">TRẠNG THÁI</span>
+            </div>
+            <div class="parts-row" role="row">
+              <span class="part-name" role="cell"><span class="part-symbol symbol-board">▦</span>Bo mạch điều khiển</span>
+              <span class="part-description" role="cell">Thay bằng tên bo mạch phù hợp</span>
+              <span class="part-quantity" role="cell">01</span>
+              <span class="part-status" role="cell"><i></i> Cần chọn mẫu</span>
+            </div>
+            <div class="parts-row" role="row">
+              <span class="part-name" role="cell"><span class="part-symbol symbol-sensor">◉</span>Cảm biến / đầu vào</span>
+              <span class="part-description" role="cell">Tùy chọn theo mục đích dự án</span>
+              <span class="part-quantity" role="cell">01+</span>
+              <span class="part-status" role="cell"><i></i> Tùy cấu hình</span>
+            </div>
+            <div class="parts-row" role="row">
+              <span class="part-name" role="cell"><span class="part-symbol symbol-wire">⌁</span>Dây nối & phụ kiện</span>
+              <span class="part-description" role="cell">Dây jumper, đầu nối, vật tư lắp ráp</span>
+              <span class="part-quantity" role="cell">Theo nhu cầu</span>
+              <span class="part-status" role="cell"><i></i> Dễ tìm</span>
+            </div>
+            <div class="parts-row" role="row">
+              <span class="part-name" role="cell"><span class="part-symbol symbol-case">▱</span>Vỏ / giá đỡ</span>
+              <span class="part-description" role="cell">Có thể tự thiết kế hoặc in 3D</span>
+              <span class="part-quantity" role="cell">01</span>
+              <span class="part-status" role="cell"><i></i> Tùy chọn</span>
+            </div>
+          </div>
+          <p class="parts-footnote"><span aria-hidden="true">✳</span> Tên linh kiện, số lượng và tình trạng đều là nội dung mẫu—hãy kiểm tra thông số thực tế trước khi lắp ráp.</p>
+        </div>
+      </section>
+
+      <section class="guide section-pad" id="guide">
+        <div class="container guide-grid">
+          <div class="guide-copy">
+            <p class="eyebrow">03 / QUY TRÌNH</p>
+            <h2>Từ ý tưởng<br><span>đến nguyên mẫu.</span></h2>
+            <p class="section-lead">Mô tả quy trình của bạn theo từng bước. Người đọc có thể hiểu tổng quan trước khi đi vào tài liệu chi tiết.</p>
+            <a class="button button-dark" href="#contact">Xem tài liệu dự án <span aria-hidden="true">↗</span></a>
+            <div class="guide-warning">
+              <span aria-hidden="true">!</span>
+              <p><strong>Lưu ý an toàn</strong><br>Ngắt nguồn trước khi đấu nối. Kiểm tra điện áp và thông số linh kiện theo tài liệu của nhà sản xuất.</p>
+            </div>
+          </div>
+          <div class="guide-steps">
+            <article class="step">
+              <span class="step-number">01</span>
+              <div><h3>Lên kế hoạch</h3><p>Xác định mục tiêu, tính năng chính và giới hạn của nguyên mẫu.</p></div>
+              <span class="step-mark" aria-hidden="true">↗</span>
+            </article>
+            <article class="step">
+              <span class="step-number">02</span>
+              <div><h3>Chuẩn bị linh kiện</h3><p>Đối chiếu danh sách vật tư, sơ đồ kết nối và hướng dẫn an toàn.</p></div>
+              <span class="step-mark" aria-hidden="true">↗</span>
+            </article>
+            <article class="step">
+              <span class="step-number">03</span>
+              <div><h3>Lắp ráp nguyên mẫu</h3><p>Kết nối theo tài liệu đã kiểm tra, làm việc trên bề mặt phù hợp.</p></div>
+              <span class="step-mark" aria-hidden="true">↗</span>
+            </article>
+            <article class="step">
+              <span class="step-number">04</span>
+              <div><h3>Kiểm tra & chia sẻ</h3><p>Ghi nhận kết quả, cập nhật tài liệu và chia sẻ điều bạn đã học.</p></div>
+              <span class="step-mark" aria-hidden="true">↗</span>
+            </article>
+            <div class="guide-diagram" aria-label="Sơ đồ luồng công việc: Lập kế hoạch, chuẩn bị, lắp ráp, kiểm tra">
+              <span class="diagram-node">LẬP KẾ HOẠCH</span><i></i><span class="diagram-node">CHUẨN BỊ</span><i></i><span class="diagram-node">LẮP RÁP</span><i></i><span class="diagram-node">KIỂM TRA</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section-pad" id="gallery">
+        <div class="container">
+          <div class="gallery-heading">
+            <div>
+              <p class="eyebrow">04 / GHI CHÉP HÌNH ẢNH</p>
+              <h2>Mỗi phiên bản<br><span>một câu chuyện.</span></h2>
+            </div>
+            <p>Thay các khung minh họa bằng ảnh do bạn tự chụp hoặc có quyền sử dụng.</p>
+          </div>
+          <div class="gallery-grid">
+            <article class="gallery-card gallery-large">
+              <div class="gallery-art gallery-art-board" aria-hidden="true">
+                <span class="gallery-board"></span><span class="gallery-wire wire-a"></span><span class="gallery-wire wire-b"></span><span class="gallery-chip"></span><span class="gallery-led"></span>
+              </div>
+              <div class="gallery-caption"><span>01 — NGUYÊN MẪU</span><span>Thay bằng ảnh dự án ↗</span></div>
+            </article>
+            <article class="gallery-card">
+              <div class="gallery-art gallery-art-sketch" aria-hidden="true">
+                <div class="sketch-sheet"><span></span><span></span><span></span><b>Ý TƯỞNG<br>→ THỬ</b></div>
+              </div>
+              <div class="gallery-caption"><span>02 — PHÁC THẢO</span><span>Thay bằng ảnh dự án ↗</span></div>
+            </article>
+            <article class="gallery-card">
+              <div class="gallery-art gallery-art-parts" aria-hidden="true">
+                <span class="resistor"></span><span class="resistor resistor-two"></span><span class="capacitor"></span><span class="pin-row"></span><span class="parts-glow"></span>
+              </div>
+              <div class="gallery-caption"><span>03 — LINH KIỆN</span><span>Thay bằng ảnh dự án ↗</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact">
+        <div class="container contact-panel">
+          <div class="contact-content">
+            <p class="eyebrow">05 / KẾT NỐI</p>
+            <h2>Bạn đang làm<br>điều gì <span>thú vị?</span></h2>
+            <p>Thay phần này bằng lời mời cộng tác, địa chỉ liên hệ hoặc liên kết đến nơi lưu trữ tài liệu dự án.</p>
+            <a class="button button-primary" href="mailto:hello@example.com">Liên hệ dự án <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="contact-aside">
+            <span class="contact-stamp" aria-hidden="true">CÙNG<br>SÁNG<br>TẠO</span>
+            <p>AN TOÀN · CỞI MỞ · CÙNG SÁNG TẠO</p>
+            <span class="contact-line"></span>
+            <span class="contact-coordinates">EMAIL<br>LIÊN HỆ</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">D</span><span>DỰ ÁN <strong>DIY</strong></span></a>
+        <p>Một bản mẫu để bắt đầu. Hãy biến nó thành của bạn.</p>
+        <a href="#home">VỀ ĐẦU TRANG ↑</a>
+        <span class="footer-copy">© <span id="year">2026</span> Dự án DIY</span>
+      </div>
+    </footer>
+  </body>
+</html>
